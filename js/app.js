@@ -28,6 +28,7 @@ var myAlignment = ["Lawful Good", "Neutral Good", "Chaotic Good", "Lawful Neutra
 //Gets the button that rolls the dice
 var mainButton = document.querySelector(".roll-button");
 
+//Listens for the click on the button and takes random elements from each array
 mainButton.addEventListener("click", function() {
   var firstRandom = mySpecies[Math.floor(Math.random() * mySpecies.length)];
   console.log(firstRandom);
@@ -36,5 +37,5 @@ mainButton.addEventListener("click", function() {
   var thirdRandom = myBackground[Math.floor(Math.random() * myBackground.length)];
   console.log(thirdRandom);
   var fourthRandom = myAlignment[Math.floor(Math.random() * myAlignment.length)];
-  console.log(fourthRandom); 
+  console.log(fourthRandom);
 });
