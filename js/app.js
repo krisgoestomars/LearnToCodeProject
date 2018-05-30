@@ -30,6 +30,8 @@ var mainButton = document.querySelector(".roll-button");
 
 //Listens for the click on the button and takes random elements from each array
 mainButton.addEventListener("click", function() {
+  var firstSection = document.querySelector(".section-2");
+
   var firstRandom = mySpecies[Math.floor(Math.random() * mySpecies.length)];
   console.log(firstRandom);
   var secondRandom = myClass[Math.floor(Math.random() * myClass.length)];
@@ -38,4 +40,10 @@ mainButton.addEventListener("click", function() {
   console.log(thirdRandom);
   var fourthRandom = myAlignment[Math.floor(Math.random() * myAlignment.length)];
   console.log(fourthRandom);
+
+  firstSection.innerHTML = `Species: ${firstRandom}.<br>
+  Class: ${secondRandom}.<br>
+  Background: ${thirdRandom}.<br>
+  Alignment: ${fourthRandom}.<br>
+  Have fun playing!`;
 });

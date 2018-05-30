@@ -4,7 +4,6 @@ html, body{
   padding: 0;
 }
 
-
 .head-container {
   width: 100%;
   display: flex;
@@ -92,7 +91,6 @@ header {
     color: black;
 }
 
-
 .container-body  {
   margin-top: 0;
   width: 100%;
@@ -100,10 +98,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   color: white;
-
 }
-
-
 
 .section-1{
   width: 20%;
@@ -120,6 +115,7 @@ header {
 .generator-title {
   width: 100%;
 }
+
 .title-1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -128,6 +124,7 @@ header {
   text-align: center;
   color: #3a173d;
 }
+
 .title-2 {
   margin-top: 0;
   margin-bottom: 0;
@@ -158,15 +155,17 @@ header {
   background-repeat: no-repeat;
 }
 
-
-
 .section-2{
   width: 20%;
   min-width: 360px;
   min-height: 360px;
   background-color:orange;
   opacity:.33;
+  color: black;
+  font-size: 25px;
+  font-style: bold;
 }
+
 .section-3{
   width: 20%;
   min-width: 360px;
