@@ -159,8 +159,7 @@ header {
   width: 20%;
   min-width: 360px;
   min-height: 360px;
-  background-color:orange;
-  opacity:.33;
+  background-color: rgba(255,127,80, 0.2);
   color: black;
   font-size: 25px;
   font-style: bold;
@@ -170,6 +169,5 @@ header {
   width: 20%;
   min-width: 360px;
   min-height: 360px;
-  background-color:red;
-  opacity: .33;
+  background-color: rgba(220,20,60, 0.2);
 }

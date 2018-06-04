@@ -42,8 +42,8 @@ mainButton.addEventListener("click", function() {
   console.log(fourthRandom);
 
   firstSection.innerHTML = `Species: ${firstRandom}.<br>
-  Class: ${secondRandom}.<br>
-  Background: ${thirdRandom}.<br>
-  Alignment: ${fourthRandom}.<br>
+  Class: ${secondRandom}<br>
+  Background: ${thirdRandom}<br>
+  Alignment: ${fourthRandom}<br>
   Have fun playing!`;
 });
